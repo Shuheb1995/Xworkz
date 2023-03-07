@@ -11,15 +11,15 @@ public class Newkeyword{
 	String[] shops= new  String[30];
 	String[] cigerattes= new String[10];
 	System.out.println(roleModel[4]);
-	System.out.println(vehicles[4]);
-	System.out.println(institutes[4]);
-	System.out.println(laptops[4]);
-	System.out.println(chairs[4]);
-	System.out.println(students[4]);
-	System.out.println(girlsInClass[4]);
-	System.out.println(boysInClass[4]);
-	System.out.println(shops[4]);
-	System.out.println(cigerattes[4]);
+	System.out.println(vehicles[2]);
+	System.out.println(institutes[3]);
+	System.out.println(laptops[10]);
+	System.out.println(chairs[11]);
+	System.out.println(students[19]);
+	System.out.println(girlsInClass[3]);
+	System.out.println(boysInClass[2]);
+	System.out.println(shops[25]);
+	System.out.println(cigerattes[1]);
 	}
 	
 }
