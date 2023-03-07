@@ -9,6 +9,7 @@ public class Newkeyword{
 	String[] girlsInClass= new String[6];
 	String[] boysInClass= new String[5];
 	String[] shops= new  String[30];
+	String[] cigerattes= new String[10];
 	System.out.println(roleModel[4]);
 	System.out.println(vehicles[4]);
 	System.out.println(institutes[4]);
@@ -18,6 +19,7 @@ public class Newkeyword{
 	System.out.println(girlsInClass[4]);
 	System.out.println(boysInClass[4]);
 	System.out.println(shops[4]);
+	System.out.println(cigerattes[4]);
 	}
 	
 }
