@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 public class Sameliterals{
 	public static void main(String[] args){
 		String animal= "Elephant";
@@ -16,4 +17,24 @@ public class Sameliterals{
 		String carSwift= "4 Wheeler";
 		System.out.println(car==carSwift);
 	}
+=======
+public class Sameliterals{
+	public static void main(String[] args){
+		String animal= "Elephant";
+		String bigAnimal= "Elephant";
+		System.out.println(animal==bigAnimal);
+		String sport= "Athletic";
+		String running= "Athletic";
+		System.out.println(sport==running);
+		String food= "Pasta";
+		String favFood= "Pasta";
+		System.out.println(food==favFood);
+		String actor= "Hrithik Roshan";
+		String greekGod= "Hrithik Roshan";
+		System.out.println(actor==greekGod);
+		String car= "4 Wheeler";
+		String carSwift= "4 Wheeler";
+		System.out.println(car==carSwift);
+	}
+>>>>>>> b27380742e3e24972cdb01a3a5089c2be1d99ad1
 }
