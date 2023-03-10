@@ -1,6 +1,6 @@
 public class MethodOverloading{
 	public static void main(String[] args){
-		tech();
+		tech(64.84f);
 		tech(1000);
 		tech(100);
 		tech(500);
@@ -17,8 +17,8 @@ public class MethodOverloading{
 		tech(3,true);
 		tech(false,4);
 	}
-	public static void tech(){
-		System.out.println("write a new method");
+	public static void tech(float average){
+		System.out.println(average);
 	}
 	public static void tech(int num){
 		System.out.println(num);
