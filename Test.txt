@@ -1,0 +1,167 @@
+1.  Constructors are special methods which are used to initialize the object.
+everytime an object is created using new keyword, tleast one constructor must be called.
+if there is no constructor, the java compiler will provide a default constructor implicitly.
+rules for constructor are:
+* constructor name should be same as class name.
+* Consttructor has no returntype.
+There are two typees of Constructor:
+* Default Constructor 
+* Parameterised Constructor
+
+DEFAULT CONSTRUCTOR: Consttructor which has no Parameter is known as Default constructor.
+PARAMETERISED CONSTRUCTOR: Constructor which has specific numbers of parameters is known as parameterised constructor.
+
+
+
+
+2.  Features Of JAVA:
+*Java is Simple 
+*Java is Secure
+*Java is Object Oriented
+*Java is Platform Independent
+*Java is Robust
+*Java is Multithreaded
+
+Java is Simple: Java is easy to understand and easy to write, so Java is Simple.
+
+Java is Secure: Java is a Interpreted Language, it does not run directly on the OS's, 
+                it has a Java Virtual Machine(JVM) which runs the java, so the viruses,
+				hackers cant attack it,so the java is secure.
+				
+Java is Object Oriented: Language uses object to communicate is known as Object Oriented programming Language.
+                         even java almost uses the object to communicate so java is Object Oriented and it is time convinient.
+						 
+Java is Platform Independent: Java compiler converts the source code to the byte code(.class file), this byte code can run on any platform
+                              this bytecode makes Java Platform Independent.
+							  
+							  
+							  
+							  
+							  
+3.  C++ is a Programmming Language
+    Java is also a  Programmming Language
+
+C++ is not much Secure.
+Java is Secure.
+
+C++ runs directly on Operating Systems(OS)
+Java does'nt runs directly on OS
+
+Java is Object Oriented
+C++ is not Object Oriented
+
+
+
+4.  JDK(Java Development Kit)- this is a application of Java.
+    JRE(Java Runtime Environment)- it present inside the JDK which creates runtime environmentt for java programme.
+	JVM(Java Virtual Machine)- It is a small machine present inside java which contains  a compiler and converts the byte code to
+                               Machine level format and execute the programme.
+
+
+5.   Types of Memory areas allocated by JVM;
+     Instance Pool- here the copy of the data will be saved. if the data is same the it wo'nt create another copy of that data
+                    It will  save the same previous data and address it.
+     Heap Memory- In the Heap Memory the copy of the object is stored.
+
+
+6.   Methods
+     Method is a block or set of codes, whichperforms a certain task or function. it provide reusability of codes user do not 
+     want to write the codes again and again. 
+     the most important Method in Java is Main method because main method is the starting point for JVM to start the execution of 
+     of Java Programme.
+    
+     syntax for Method is:
+     
+     Public static void methodname (Parameter list);
+
+     Public - Access Specifier- it makes the method accessible in all the classes.
+     Static - Non Access Specifier- it is a Keyword which calls the method without creating an object.
+	 void - Return type - if we use the datatypes instead of void then method returns the value of that datatype.
+            if we use void then method wo'nt return anything.
+     Method Name- Mthod should have suitable name. The Method name should be corresponding or similar  to functionality
+                	 of the method.	 
+	Parameter list- parameter list is a data provide to a method, consist of datatypes and the arguements 
+	                which are superated by comma and covered by parantheses.
+					
+					
+					
+					
+7. Method Overloading 
+   Method overloading is nothing but declaring same method in one class.
+   Rules for Method Overloading are:
+   * parameter with different datatypes.
+   * parameter with different numbers.
+   * order of parameter.
+   
+   
+   Example.
+   public class MethodOverlaoding{
+	
+	public static void call(){
+	System.out.println("call ulaga");
+	}
+	
+	public static void call(int num){
+	System.out.println(" Called Ulaga");
+	}
+	public static void call(long number,String recieved){
+	System.out.println(" did Ulaga recieved call");
+	}
+	public static vooid main(String[] args){
+	
+	call();
+	call(573201);
+	call(8217650069L, "yes");
+	
+	}
+	} 
+   
+   
+   
+8. Constructor- use to initialise the object.
+   Method - use to initialise the value of variables.
+   
+   constructor- constructor name should be same as class name.
+   Method- method name can be same as class name or not.
+   
+   contructor-java compileer provides default constructor implicitly.
+   Method- java compileer wo'nt provide any Method implicitly, user have declare it.
+   
+   constructor- it dont give any returntype.
+   Method- it gives a returntypes of given datatypes.
+   
+   
+   
+   
+9.  Static Variable - A variable which uses static keyword is known as Static Variable, it is accessible without creating any object.
+    Static Method - A Method which uses static keyword is known as Static Method, it call the Method without creating any object.
+	Static Block - A block which is used to initialise the Static variable is known as Static block.
+	
+	
+	
+10. Constructor Overloading:  in Java, constructor overloading is technique of caling more than one constructor with different
+    parameter list. they are arranged in a way that each constructor should perform different task.
+	
+	
+	examople.  
+	public class ConsOverlaoding{
+	
+	public ConsOverlaoding(){
+	System.out.println("default constructor");
+	}
+	
+	public ConsOverlaoding(int num){
+	System.out.println("Parameterised constructor");
+	}
+	public ConsOverlaoding(float percentage){
+	System.out.println("Constructor Overloading");
+	}
+	public static vooid main(String[] args){
+	
+	ConsOverlaoding display= new ConsOverlaoding();
+	
+	display.num;
+	display.percentage;
+	}
+	} 
+
